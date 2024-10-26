@@ -82,7 +82,6 @@ header{
 
 footer{
     width: 100vw;
-    background-color: rgba(169, 169, 169, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,19 +99,24 @@ footer{
 .footer-div-box-1{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: self-start;
     height: 80%;
     width: 100%;
+    backdrop-filter: blur(20px);
+    font-size: 2.4vh;
 }
 
 .footer-div-box-2{
+    color:saddlebrown;
     background-color: black;
     bottom: 0;
     height: 20%;
     width: 100%;
+    font-size: 130%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
 }
