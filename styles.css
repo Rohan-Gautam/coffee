@@ -1,0 +1,59 @@
+body{
+    background-color: #000000;
+    color: darkgrey;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar{
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    padding-left: 0.5vw;
+    height: 8vh;
+    width: 95vw;
+    border-radius: 15vw;
+    border: 3px solid darkgrey;
+    background: linear-gradient(160deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.08)); /* Glassy gradient */
+    backdrop-filter: blur(0.1vw);
+    position: fixed;
+
+}
+
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+}
+
+.nav-ul{
+}
+
+.nav-ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1vw;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.5vw;
+}
+.logo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
