@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+
 }
 
 
@@ -17,6 +18,7 @@ header{
     justify-content: center;
     align-items: center;
     padding-top: 2vh;
+    z-index: 9000;
 }
 
 .navbar{
@@ -37,19 +39,48 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 7vh;
+    height: 8vh;
 }
 
 .nav-ul{
+    max-height: 8vh;
+    color: wheat;
+    padding-right:0.5vw ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 .nav-ul li{
+    color: wheat;
     font-size: 1.4rem;
     list-style: none;
     text-decoration: none;
     display: inline-block;
     padding: 1vw;
+    border: none;
 }
+
+.nav-ul li a{
+    padding: 1vw;
+    color: wheat;
+    text-decoration: none;
+    text-shadow: 1px 1px 10px black;
+    border: 3px solid rgba(253, 253, 253, 0);
+    border-radius: 2vw;
+}
+
+
+
+.nav-ul li a:hover{
+    box-shadow: 0 0 10px saddlebrown;
+    background-color: saddlebrown;
+    border: 3px solid #55270a;
+    border-radius: 2vw;
+}
+
 
 .logo{
     display: flex;
@@ -71,6 +102,41 @@ header{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+
+.head1-img{
+    width: 50vw;
+    padding: 5vw;
+}
+
+.head1-img img{
+    width: 40vw;
+
+    border-radius: 10vw;
+    box-shadow: 10px 10px 100px saddlebrown;
+}
+
+.head1-text{
+    z-index: -100;
+    width: 50vw;
+    backdrop-filter: blur(20px);
+    border-radius: 10vw;
+    padding: 5vw;
+}
+
+.head1-text h1{
+    text-shadow: 1px 1px 5px black;
+    color: #eaac84;
+    padding: 1vw;
+}
+
+.head1-text-box{
+    border-radius: 1vw;
+    background-color: saddlebrown;
+    width: 40vw;
+    box-shadow: 1px 1px 10px saddlebrown;
 }
 
 .head2{
