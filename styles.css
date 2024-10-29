@@ -113,7 +113,6 @@ header{
 
 .head1-img img{
     width: 40vw;
-
     border-radius: 10vw;
     box-shadow: 10px 10px 100px saddlebrown;
 }
@@ -130,6 +129,7 @@ header{
     text-shadow: 1px 1px 5px black;
     color: #eaac84;
     padding: 1vw;
+    font-size: 4vh;
 }
 
 .head1-text-box{
